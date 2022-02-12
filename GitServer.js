@@ -3,7 +3,6 @@
 import GitProxy from './GitProxy.js';
 import WebServer from './WebServer.js';
 import { existsDirSync, fetchJSON, basicAuth } from './WebUtil.js';
-
 const settings = await fetchJSON('settings.json');
 
 const REPO_PATH = settings?.repoPath || 'repos';
