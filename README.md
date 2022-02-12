@@ -13,7 +13,8 @@ If you are looking for a complete out-of-the-box software to run a deno git-serv
 ## Install
 
 1. Install [Git](https://github.com/git/git) and [Deno](https://deno.land)
-2. Type this in your console
+2. Clone this repo, change into its directory
+3. Type this in your console
 ```
 deno run -A --unstable GitServer.js
 ```
