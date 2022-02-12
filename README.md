@@ -23,7 +23,7 @@ runs on `localhost:7005` by default
 ## Usage
 
 make a directory and change into it, init git, create a file, make a commit, set remote origin and push.
-```bash
+```console
 mkdir test
 cd test
 git init
@@ -34,7 +34,7 @@ git remote add origin http://localhost:7005/test
 git push --set-upstream origin master
 ```
 or
-```bash
+```console
 git push http://localhost:7005/test master
 ```
 
