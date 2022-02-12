@@ -1,5 +1,14 @@
 {
-  "repoPath": "repo/",
-  "ipWhiteList": { "::1": { "name": "me" }},
-  "port": 7005
+	"repoPath": "repos/",
+	"ipWhiteList": {
+		"::1": {
+			"name": "me"
+		}
+	},
+	"useWhiteList": false,
+	"authenticationCall": "myAuthFunction",
+	"useAuthentication": true,
+	"onPushWelcome": "myPushWelcome",
+	"onPush": "myPush",
+	"port": 7005
 }
